@@ -1,9 +1,9 @@
 // Write a function that takes in a string and returns it when reversed in javcript
-// let food = "eating";
-// function reversing(food) {
-//     food.reverse();
-//     console.log(food);
-// }
+let food = "eating";
+function reversing(food) {
+    food.reverse();
+    console.log(food);
+}
 
 // reversing(food);
 
@@ -13,7 +13,7 @@ target = 23;
 
 function tobesorted(num){
 
-if (num.length>=1) {
+if (num.length<=1) {
     return num
 }
 let middle = Math.floor(num.length/2)
@@ -45,7 +45,7 @@ return empty.concat(left.slice(left[leftindex])).concat(right.slice(right[righti
 }
 
 console.log(sort(tobesorted));
-let empty =  [0,2,5,8,23,45,76]
+// let empty =  [0,2,5,8,23,45,76]
 
 function finding(empty, target) {
     let left2 = 0;
@@ -85,8 +85,19 @@ for (let e = 0; e < array.length; e++) {
    if(e===4){
     console.log(array[e]," leap year");
    }
+   else{console.log(array[e],"not leap year");}
+   if(e===8){
+    console.log(array[e]," leap year");
+   }
+   else{console.log(array[e],"not leap year");}
+   if(e===12){
+    console.log(array[e]," leap year");
+   }
+   else{console.log(array[e],"not leap year");}
+   if(e===16){
+    console.log(array[e]," leap year");
+   }
    else{console.log(array[e],"not leap year");}}
-
 
 
 // 4 Given a range of numbers from 0 to 100, console”Fizz” if the numbers are divisible by 3,
